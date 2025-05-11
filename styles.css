@@ -1,0 +1,14 @@
+body { font-family: Arial; background: #121212; color: white; }
+header, footer { background: #1e1e1e; padding: 20px; text-align: center; }
+nav ul { list-style: none; padding: 0; }
+nav ul li { display: inline-block; margin: 0 15px; }
+nav a { color: white; text-decoration: none; }
+.hero { text-align: center; padding: 50px 20px; background: #222; }
+.popular { text-align: center; padding: 20px; }
+.games { display: flex; justify-content: center; gap: 20px; }
+.games div { text-align: center; }
+.games img { width: 80px; height: 80px; }
+section { padding: 20px; }
+form { max-width: 500px; margin: auto; }
+input, textarea { width: 100%; margin: 10px 0; padding: 10px; border: none; border-radius: 5px; }
+button { padding: 10px 20px; background: #ff6347; border: none; color: white; border-radius: 5px; }
