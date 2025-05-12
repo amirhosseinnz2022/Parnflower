@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parnflowers Limited</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0e0620;
+      color: white;
+    }
+    header, footer {
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin-left: 2rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      background: #6236ff;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .games {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem;
+    }
+    .games img {
+      border-radius: 1rem;
+      width: 120px;
+      height: auto;
+    }
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      padding: 4rem 2rem;
+      background-color: #1a103b;
+      border-radius: 16px;
+      margin: 2rem;
+    }
+    .contact form {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .contact input, .contact textarea {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+    }
+    .contact-info {
+      margin-left: 2rem;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Parnflowers Limited</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Games</a>
+      <a href="#">Sell Items</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Buy & sell in-game items and accounts</h1>
+    <button>Sell your gaming items today</button>
+    <div class="games">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/library_600x900_2x.jpg" alt="Fortnite">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/library_600x900_2x.jpg" alt="CSGO">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/library_600x900_2x.jpg" alt="Valorant">
+    </div>
+  </section>
+
+  <section class="contact">
+    <form>
+      <h2>Contact Us</h2>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Your message..."></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="contact-info">
+      <h3>Marten Parn</h3>
+      <p>(+44) 7447649430</p>
+      <p>parnfluk@outlook.com</p>
+      <p>support@parnflowes.store</p>
+      <p>Telegram: @parnflowers</p>
+      <p>PB 4385, 15861881, Cardiff, CF14 8LH</p>
+    </div>
+  </section>
+</body>
+</html>
