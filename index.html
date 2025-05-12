@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Parnflowers Limited</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -18,6 +17,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background-color: #1a103b;
     }
     nav a {
       margin-left: 2rem;
@@ -50,53 +50,36 @@
       display: flex;
       justify-content: center;
       gap: 2rem;
-      margin: 2rem;
+      margin: 2rem 0;
     }
     .games img {
       border-radius: 1rem;
-      width: 120px;
+      width: 140px;
       height: auto;
+      box-shadow: 0 0 12px #6236ff;
     }
-    .contact {
-      display: flex;
-      justify-content: space-between;
-      padding: 4rem 2rem;
-      background-color: #1a103b;
-      border-radius: 16px;
-      margin: 2rem;
-    }
-    .contact form {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-    .contact input, .contact textarea {
-      margin-bottom: 1rem;
-      padding: 0.75rem;
-      border-radius: 8px;
-      border: none;
-      font-size: 1rem;
-    }
-    .contact-info {
-      margin-left: 2rem;
-      flex: 1;
+    footer {
+      justify-content: center;
     }
   </style>
 </head>
 <body>
   <header>
-    <h2>Parnflowers Limited</h2>
+    <h2>Parnflowers</h2>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Games</a>
-      <a href="#">Sell Items</a>
-      <a href="#">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="games.html">Games</a>
+      <a href="sell.html">Sell</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="terms.html">Terms</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>Buy & sell in-game items and accounts</h1>
-    <button>Sell your gaming items today</button>
+    <h1>Buy & Sell Game Accounts & Items</h1>
+    <p>Your trusted platform for trading gaming assets fast and securely.</p>
+    <button onclick="window.location.href='sell.html'">Start Selling</button>
     <div class="games">
       <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/library_600x900_2x.jpg" alt="Fortnite">
       <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/library_600x900_2x.jpg" alt="CSGO">
@@ -104,22 +87,15 @@
     </div>
   </section>
 
-  <section class="contact">
-    <form>
-      <h2>Contact Us</h2>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea rows="5" placeholder="Your message..."></textarea>
-      <button type="submit">Submit</button>
-    </form>
-    <div class="contact-info">
-      <h3>Marten Parn</h3>
-      <p>(+44) 7447649430</p>
-      <p>parnfluk@outlook.com</p>
-      <p>support@parnflowes.store</p>
-      <p>Telegram: @parnflowers</p>
-      <p>PB 4385, 15861881, Cardiff, CF14 8LH</p>
-    </div>
-  </section>
+  <footer>
+    <p>&copy; 2025 Parnflowers Limited</p>
+  </footer>
 </body>
 </html>
+
+<!-- Additional Pages -->
+<!-- games.html -->
+<!-- sell.html -->
+<!-- contact.html -->
+<!-- about.html -->
+<!-- terms.html -->
